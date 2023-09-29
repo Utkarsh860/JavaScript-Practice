@@ -20,14 +20,14 @@ Programming languages that allows such things such as JavaScript called "Dynamic
                         double (64-bit floating point).
 */ 
 
-// alert(1/0);    // Infinity
-// alert(Infinity + 10);  // Infinity 
+alert(1/0);    // Infinity
+alert(Infinity + 10);  // Infinity 
 
 /*
 . -Infinity represents a number that is smaller than any real number. 
 */
 
-// alert(-1/0);  // -Infinity
+alert(-1/0);  // -Infinity
 // alert(-Infinity + 10);  // -Infinity 
 // alert(-Infinity - 10);  // -Infinity 
 
@@ -35,9 +35,9 @@ Programming languages that allows such things such as JavaScript called "Dynamic
 .NaN stands for "Not a Number" which often used to indicate an error or an undefined value in calculations.
 */
 
-// alert("not a num"/2);  // NaN
-// alert(NaN + 1);  // NaN
-// alert(Math.sqrt(-1));  // NaN
+alert("not a num"/2);  // NaN
+alert(NaN + 1);  // NaN
+alert(Math.sqrt(-1));  // NaN
 
 /*
 2. String --> 
@@ -66,8 +66,8 @@ alert(`Hello, ${name}`);
                                          Boolean values also come as a result of comparison. 
 */
 
-// alert(4>1);  // true bcoz 4 is greater than 1.
-// alert(4<1); // false bcoz 4 is not less than 1.
+alert(4>1);  // true bcoz 4 is greater than 1.
+alert(4<1); // false bcoz 4 is not less than 1.
 
 /*
 4. The "null" Value -->
@@ -80,10 +80,10 @@ alert(`Hello, ${name}`);
 
 var age = null;
 // In some mathematical expressions null is work like zero.
-// alert(age); // null
-// alert(age + 6); // 0 + 6  = 6 
-// alert(age*6); // 0*6 = 0 
-// alert(1/age); // 1 / 0 = Infinity
+alert(age); // null
+alert(age + 6); // 0 + 6  = 6 
+alert(age*6); // 0*6 = 0 
+alert(1/age); // 1 / 0 = Infinity
 
 /*
 5. The "undefined" Value -->
@@ -92,7 +92,7 @@ var age = null;
                                               If a variable is declared, but not assigned, then its value is undefined
 */
 var a;
-// alert(a); // shows "undefined"
+alert(a); // shows "undefined"
 
 //--------------------Difference between null & undefined---------------------------//
 /*
