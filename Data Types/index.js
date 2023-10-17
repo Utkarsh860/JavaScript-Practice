@@ -23,11 +23,12 @@ Programming languages that allows such things such as JavaScript called "Dynamic
 alert(1/0);    // Infinity
 alert(Infinity + 10);  // Infinity 
 
+
 /*
 . -Infinity represents a number that is smaller than any real number. 
 */
 
-alert(-1/0);  // -Infinity
+alert(-1/0);  // -Infinity    
 // alert(-Infinity + 10);  // -Infinity 
 // alert(-Infinity - 10);  // -Infinity 
 
